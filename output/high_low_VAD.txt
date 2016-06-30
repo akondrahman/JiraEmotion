@@ -1,0 +1,15 @@
+[arahman@arahman code]$ python issue_report_extraction.py
+##### Report #####
+All the +ves 209
+All the -ves 268
+--------------------
+All the high valence: 2003
+All the low valence: 3374
+--------------------
+All the high arousal: 2003
+All the low arousal: 3374
+--------------------
+All the high dominance: 2003
+All the low  dominance: 3374
+--------------------
+[arahman@arahman code]$ 
