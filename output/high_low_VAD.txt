@@ -55,3 +55,41 @@ Summary
 All the high dominance: 2003
 All the low  dominance: 3374
 --------------------
+
+
+##### Report #####
+All the +ve emotions: 209
+All the -ve emotions: 268
+--------------------
+Summary
+-->Median:  0.0
+-->Mean:  0.535559711363
+-->25th:  0.0
+-->60th:  0.0
+-->65th:  0.6724822
+-->70th:  0.724
+-->75th:  0.9805
+All the high valence: 2003
+All the low valence: 3374
+--------------------
+Summary
+-->Median:  0.0
+-->Mean:  0.375755970058
+-->25th:  0.0
+-->60th:  0.0
+-->65th:  0.50185
+-->70th:  0.536
+-->75th:  0.689375
+All the high arousal: 2003
+All the low arousal: 3374
+--------------------
+Summary
+-->Median:  0.0
+-->Mean:  0.551809711921
+-->25th:  0.0
+-->60th:  0.0
+-->65th:  0.705714
+-->70th:  0.934
+-->75th:  1.02929
+All the high dominance: 2003
+All the low  dominance: 3374
