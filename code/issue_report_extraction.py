@@ -191,30 +191,30 @@ print "##### Report #####"
 pos_and_neg_report_IDs = determinePosAndNeg(allIssueReportIDs)
 pos_list = pos_and_neg_report_IDs[0]
 neg_list = pos_and_neg_report_IDs[1]
-# print "All the +ve emotions:", len(pos_list)
-# print "All the -ve emotions:",  len(neg_list)
-# dumpComplexityFeatures(pos_list, 'Pos')
-# dumpComplexityFeatures(neg_list, 'Neg')
-print "--------------------"
+print "All the +ve emotions:", len(pos_list)
+print "All the -ve emotions:",  len(neg_list)
+dumpComplexityFeatures(pos_list, 'Pos')
+dumpComplexityFeatures(neg_list, 'Neg')
+# print "--------------------"
 valence_threshold = 0.535559711363 # mean valence
 arousal_threshold = 0.375755970058 # mean arousal
 dominance_threshold = 0.551809711921 # mean dominance
-high_and_low_valence = determineHighAndLowVAD(allIssueReportIDs, 'V', valence_threshold)
-high_valence_list = high_and_low_valence[0]
-low_valence_list = high_and_low_valence[1]
+# high_and_low_valence = determineHighAndLowVAD(allIssueReportIDs, 'V', valence_threshold)
+# high_valence_list = high_and_low_valence[0]
+# low_valence_list = high_and_low_valence[1]
 # print "All the high valence:", len(high_valence_list)
 # dumpComplexityFeatures(high_valence_list, 'H_V')
 # print "All the low valence:",  len(low_valence_list)
 # dumpComplexityFeatures(low_valence_list, 'L_V')
 # print "--------------------"
-high_and_low_arousal = determineHighAndLowVAD(allIssueReportIDs, 'A', arousal_threshold)
-high_arousal_list = high_and_low_arousal[0]
-low_arousal_list = high_and_low_arousal[1]
-print "All the high arousal:", len(high_arousal_list)
-dumpComplexityFeatures(high_arousal_list, 'H_A')
-print "All the low arousal:",  len(low_arousal_list)
-dumpComplexityFeatures(low_arousal_list, 'L_A')
-print "--------------------"
+# high_and_low_arousal = determineHighAndLowVAD(allIssueReportIDs, 'A', arousal_threshold)
+# high_arousal_list = high_and_low_arousal[0]
+# low_arousal_list = high_and_low_arousal[1]
+# print "All the high arousal:", len(high_arousal_list)
+# dumpComplexityFeatures(high_arousal_list, 'H_A')
+# print "All the low arousal:",  len(low_arousal_list)
+# dumpComplexityFeatures(low_arousal_list, 'L_A')
+# print "--------------------"
 # high_and_low_dominance = determineHighAndLowVAD(allIssueReportIDs, 'D', dominance_threshold)
 # high_dominance_list = high_and_low_dominance[0]
 # print "All the high dominance:", len(high_dominance_list)
@@ -222,5 +222,5 @@ print "--------------------"
 # low_dominance_list = high_and_low_dominance[1]
 # print "All the low  dominance:",  len(low_dominance_list)
 # dumpComplexityFeatures(low_dominance_list, 'L_D')
-# print "--------------------"
+print "--------------------"
 print "Ending at:", utility.giveTimeStamp()
