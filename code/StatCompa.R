@@ -170,4 +170,7 @@ performAnalysis<- function(dataParam)
 }
 
 
-performAnalysis(valence_data)
+#performAnalysis(valence_data)
+#performAnalysis(arousal_data)
+#performAnalysis(dominance_data)
+#performAnalysis(pos_neg_data)
