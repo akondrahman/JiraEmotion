@@ -1,0 +1,1000 @@
+[1] "---------------"
+[1] "Extraction: Mean of high"
+[1] 0.04394481
+[1] "Extraction: Mean of low"
+[1] 0.04356725
+[1] "Extraction: S.D of high"
+[1] 0.2560323
+[1] "Extraction: S.D of low"
+[1] 0.2674222
+[1] "---------------"
+[1] "Pre-requisite"
+[1] "-------------------------"
+[1] "H != L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 0.0512, df = 4219.63, p-value = 0.9592
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.01408352  0.01483864
+sample estimates:
+ mean of x  mean of y 
+0.04394481 0.04356725 
+
+[1] "-------------------------"
+[1] "H > L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 0.0512, df = 4219.63, p-value = 0.4796
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -0.01175774         Inf
+sample estimates:
+ mean of x  mean of y 
+0.04394481 0.04356725 
+
+[1] "-------------------------"
+[1] "H < L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 0.0512, df = 4219.63, p-value = 0.5204
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf 0.01251286
+sample estimates:
+ mean of x  mean of y 
+0.04394481 0.04356725 
+
+[1] "-------------------------"
+[1] "Pre-requisite"
+[1] "---------------"
+[1] "Finally:::Cohen's D:::"
+[1] 0.001442237
+[1] "---------------"
+[1] "Pre-requisite"
+[1] "---------------"
+[1] ":::::VD-A12:::::"
+
+Vargha and Delaney A
+
+A estimate: 0.5005693 ()
+[1] "---------------"
+[1] ":::::Cliffs-Delta:::::"
+[1] "Pre-requisite"
+
+Cliff's Delta
+
+delta estimate: 0.001138663 (negligible)
+95 percent confidence interval:
+         inf          sup 
+-0.008983845  0.011260936 
+[1] "Follower Counts"
+[1] "---------------"
+[1] "Extraction: Mean of high"
+[1] 0.03576903
+[1] "Extraction: Mean of low"
+[1] 0.01900585
+[1] "Extraction: S.D of high"
+[1] 0.2429961
+[1] "Extraction: S.D of low"
+[1] 0.163828
+[1] "---------------"
+[1] "Follower Counts"
+[1] "-------------------------"
+[1] "H != L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 2.7186, df = 2990.115, p-value = 0.006593
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.004673068 0.028853305
+sample estimates:
+ mean of x  mean of y 
+0.03576903 0.01900585 
+
+[1] "-------------------------"
+[1] "H > L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 2.7186, df = 2990.115, p-value = 0.003297
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.006617803         Inf
+sample estimates:
+ mean of x  mean of y 
+0.03576903 0.01900585 
+
+[1] "-------------------------"
+[1] "H < L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 2.7186, df = 2990.115, p-value = 0.9967
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf 0.02690857
+sample estimates:
+ mean of x  mean of y 
+0.03576903 0.01900585 
+
+[1] "-------------------------"
+[1] "Follower Counts"
+[1] "---------------"
+[1] "Finally:::Cohen's D:::"
+[1] 0.08089255
+[1] "---------------"
+[1] "Follower Counts"
+[1] "---------------"
+[1] ":::::VD-A12:::::"
+
+Vargha and Delaney A
+
+A estimate: 0.5059135 ()
+[1] "---------------"
+[1] ":::::Cliffs-Delta:::::"
+[1] "Follower Counts"
+
+Cliff's Delta
+
+delta estimate: 0.01182709 (negligible)
+95 percent confidence interval:
+        inf         sup 
+0.003446252 0.020206266 
+[1] "Following Counts"
+[1] "---------------"
+[1] "Extraction: Mean of high"
+[1] 0.02299438
+[1] "Extraction: Mean of low"
+[1] 0.01432749
+[1] "Extraction: S.D of high"
+[1] 0.1598268
+[1] "Extraction: S.D of low"
+[1] 0.1236781
+[1] "---------------"
+[1] "Following Counts"
+[1] "-------------------------"
+[1] "H != L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 2.0703, df = 3304.161, p-value = 0.0385
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.0004587895 0.0168749981
+sample estimates:
+ mean of x  mean of y 
+0.02299438 0.01432749 
+
+[1] "-------------------------"
+[1] "H > L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 2.0703, df = 3304.161, p-value = 0.01925
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.001779028         Inf
+sample estimates:
+ mean of x  mean of y 
+0.02299438 0.01432749 
+
+[1] "-------------------------"
+[1] "H < L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 2.0703, df = 3304.161, p-value = 0.9807
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf 0.01555476
+sample estimates:
+ mean of x  mean of y 
+0.02299438 0.01432749 
+
+[1] "-------------------------"
+[1] "Following Counts"
+[1] "---------------"
+[1] "Finally:::Cohen's D:::"
+[1] 0.06065002
+[1] "---------------"
+[1] "Following Counts"
+[1] "---------------"
+[1] ":::::VD-A12:::::"
+
+Vargha and Delaney A
+
+A estimate: 0.5038636 ()
+[1] "---------------"
+[1] ":::::Cliffs-Delta:::::"
+[1] "Following Counts"
+
+Cliff's Delta
+
+delta estimate: 0.007727247 (negligible)
+95 percent confidence interval:
+         inf          sup 
+0.0002095117 0.0152441087 
+[1] "Total Follow-type Counts"
+[1] "---------------"
+[1] "Extraction: Mean of high"
+[1] 0.05876341
+[1] "Extraction: Mean of low"
+[1] 0.03333333
+[1] "Extraction: S.D of high"
+[1] 0.3001722
+[1] "Extraction: S.D of low"
+[1] 0.2191478
+[1] "---------------"
+[1] "Total Follow-type Counts"
+[1] "-------------------------"
+[1] "H != L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 3.2807, df = 3162.789, p-value = 0.001047
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.01023180 0.04062836
+sample estimates:
+ mean of x  mean of y 
+0.05876341 0.03333333 
+
+[1] "-------------------------"
+[1] "H > L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 3.2807, df = 3162.789, p-value = 0.0005234
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.01267643        Inf
+sample estimates:
+ mean of x  mean of y 
+0.05876341 0.03333333 
+
+[1] "-------------------------"
+[1] "H < L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 3.2807, df = 3162.789, p-value = 0.9995
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf 0.03818373
+sample estimates:
+ mean of x  mean of y 
+0.05876341 0.03333333 
+
+[1] "-------------------------"
+[1] "Total Follow-type Counts"
+[1] "---------------"
+[1] "Finally:::Cohen's D:::"
+[1] 0.0967654
+[1] "---------------"
+[1] "Total Follow-type Counts"
+[1] "---------------"
+[1] ":::::VD-A12:::::"
+
+Vargha and Delaney A
+
+A estimate: 0.5092595 ()
+[1] "---------------"
+[1] ":::::Cliffs-Delta:::::"
+[1] "Total Follow-type Counts"
+
+Cliff's Delta
+
+delta estimate: 0.01851892 (negligible)
+95 percent confidence interval:
+        inf         sup 
+0.007657338 0.029376127 
+[1] "Related Counts"
+[1] "---------------"
+[1] "Extraction: Mean of high"
+[1] 0.1778232
+[1] "Extraction: Mean of low"
+[1] 0.1061404
+[1] "Extraction: S.D of high"
+[1] 0.5529793
+[1] "Extraction: S.D of low"
+[1] 0.362981
+[1] "---------------"
+[1] "Related Counts"
+[1] "-------------------------"
+[1] "H != L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 5.1362, df = 2937.279, p-value = 2.986e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.04431779 0.09904790
+sample estimates:
+mean of x mean of y 
+0.1778232 0.1061404 
+
+[1] "-------------------------"
+[1] "H > L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 5.1362, df = 2937.279, p-value = 1.493e-07
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.04871959        Inf
+sample estimates:
+mean of x mean of y 
+0.1778232 0.1061404 
+
+[1] "-------------------------"
+[1] "H < L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 5.1362, df = 2937.279, p-value = 1
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf 0.09464611
+sample estimates:
+mean of x mean of y 
+0.1778232 0.1061404 
+
+[1] "-------------------------"
+[1] "Related Counts"
+[1] "---------------"
+[1] "Finally:::Cohen's D:::"
+[1] 0.1532571
+[1] "---------------"
+[1] "Related Counts"
+[1] "---------------"
+[1] ":::::VD-A12:::::"
+
+Vargha and Delaney A
+
+A estimate: 0.5207821 ()
+[1] "---------------"
+[1] ":::::Cliffs-Delta:::::"
+[1] "Related Counts"
+
+Cliff's Delta
+
+delta estimate: 0.04156425 (negligible)
+95 percent confidence interval:
+       inf        sup 
+0.02372323 0.05937879 
+[1] "Clones"
+[1] "---------------"
+[1] "Extraction: Mean of high"
+[1] 0.148697
+[1] "Extraction: Mean of low"
+[1] 0.06491228
+[1] "Extraction: S.D of high"
+[1] 0.4371134
+[1] "Extraction: S.D of low"
+[1] 0.3057361
+[1] "---------------"
+[1] "Clones"
+[1] "-------------------------"
+[1] "H != L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 7.495, df = 3066.923, p-value = 8.626e-14
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.06186607 0.10570334
+sample estimates:
+ mean of x  mean of y 
+0.14869699 0.06491228 
+
+[1] "-------------------------"
+[1] "H > L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 7.495, df = 3066.923, p-value = 4.313e-14
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.06539171        Inf
+sample estimates:
+ mean of x  mean of y 
+0.14869699 0.06491228 
+
+[1] "-------------------------"
+[1] "H < L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 7.495, df = 3066.923, p-value = 1
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf 0.1021777
+sample estimates:
+ mean of x  mean of y 
+0.14869699 0.06491228 
+
+[1] "-------------------------"
+[1] "Clones"
+[1] "---------------"
+[1] "Finally:::Cohen's D:::"
+[1] 0.2221294
+[1] "---------------"
+[1] "Clones"
+[1] "---------------"
+[1] ":::::VD-A12:::::"
+
+Vargha and Delaney A
+
+A estimate: 0.5350822 ()
+[1] "---------------"
+[1] ":::::Cliffs-Delta:::::"
+[1] "Clones"
+
+Cliff's Delta
+
+delta estimate: 0.07016438 (negligible)
+95 percent confidence interval:
+       inf        sup 
+0.05359442 0.08669571 
+[1] "Fix And Repairs"
+[1] "---------------"
+[1] "Extraction: Mean of high"
+[1] 0.06796117
+[1] "Extraction: Mean of low"
+[1] 0.02631579
+[1] "Extraction: S.D of high"
+[1] 0.3291878
+[1] "Extraction: S.D of low"
+[1] 0.1823056
+[1] "---------------"
+[1] "Fix And Repairs"
+[1] "-------------------------"
+[1] "H != L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 5.1619, df = 2656.001, p-value = 2.626e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.02582540 0.05746535
+sample estimates:
+ mean of x  mean of y 
+0.06796117 0.02631579 
+
+[1] "-------------------------"
+[1] "H > L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 5.1619, df = 2656.001, p-value = 1.313e-07
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.02837026        Inf
+sample estimates:
+ mean of x  mean of y 
+0.06796117 0.02631579 
+
+[1] "-------------------------"
+[1] "H < L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 5.1619, df = 2656.001, p-value = 1
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf 0.05492049
+sample estimates:
+ mean of x  mean of y 
+0.06796117 0.02631579 
+
+[1] "-------------------------"
+[1] "Fix And Repairs"
+[1] "---------------"
+[1] "Finally:::Cohen's D:::"
+[1] 0.1565129
+[1] "---------------"
+[1] "Fix And Repairs"
+[1] "---------------"
+[1] ":::::VD-A12:::::"
+
+Vargha and Delaney A
+
+A estimate: 0.5153094 ()
+[1] "---------------"
+[1] ":::::Cliffs-Delta:::::"
+[1] "Fix And Repairs"
+
+Cliff's Delta
+
+delta estimate: 0.03061883 (negligible)
+95 percent confidence interval:
+       inf        sup 
+0.01942450 0.04180548 
+[1] "Causality"
+[1] "---------------"
+[1] "Extraction: Mean of high"
+[1] 0.06540623
+[1] "Extraction: Mean of low"
+[1] 0.0119883
+[1] "Extraction: S.D of high"
+[1] 0.3753853
+[1] "Extraction: S.D of low"
+[1] 0.1166317
+[1] "---------------"
+[1] "Causality"
+[1] "-------------------------"
+[1] "H != L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 6.1282, df = 2174.267, p-value = 1.052e-09
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.03632380 0.07051206
+sample estimates:
+ mean of x  mean of y 
+0.06540623 0.01198830 
+
+[1] "-------------------------"
+[1] "H > L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 6.1282, df = 2174.267, p-value = 5.262e-10
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.03907396        Inf
+sample estimates:
+ mean of x  mean of y 
+0.06540623 0.01198830 
+
+[1] "-------------------------"
+[1] "H < L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 6.1282, df = 2174.267, p-value = 1
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf 0.0677619
+sample estimates:
+ mean of x  mean of y 
+0.06540623 0.01198830 
+
+[1] "-------------------------"
+[1] "Causality"
+[1] "---------------"
+[1] "Finally:::Cohen's D:::"
+[1] 0.1921825
+[1] "---------------"
+[1] "Causality"
+[1] "---------------"
+[1] ":::::VD-A12:::::"
+
+Vargha and Delaney A
+
+A estimate: 0.5190023 ()
+[1] "---------------"
+[1] ":::::Cliffs-Delta:::::"
+[1] "Causality"
+
+Cliff's Delta
+
+delta estimate: 0.03800452 (negligible)
+95 percent confidence interval:
+       inf        sup 
+0.02779800 0.04820312 
+[1] "Blocks"
+[1] "---------------"
+[1] "Extraction: Mean of high"
+[1] 0.003576903
+[1] "Extraction: Mean of low"
+[1] 0.004385965
+[1] "Extraction: S.D of high"
+[1] 0.08144579
+[1] "Extraction: S.D of low"
+[1] 0.07824899
+[1] "---------------"
+[1] "Blocks"
+[1] "-------------------------"
+[1] "H != L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = -0.3555, df = 3939.225, p-value = 0.7222
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.005271195  0.003653072
+sample estimates:
+  mean of x   mean of y 
+0.003576903 0.004385965 
+
+[1] "-------------------------"
+[1] "H > L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = -0.3555, df = 3939.225, p-value = 0.6389
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -0.004553532          Inf
+sample estimates:
+  mean of x   mean of y 
+0.003576903 0.004385965 
+
+[1] "-------------------------"
+[1] "H < L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = -0.3555, df = 3939.225, p-value = 0.3611
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+        -Inf 0.002935409
+sample estimates:
+  mean of x   mean of y 
+0.003576903 0.004385965 
+
+[1] "-------------------------"
+[1] "Blocks"
+[1] "---------------"
+[1] "Finally:::Cohen's D:::"
+[1] -0.01013057
+[1] "---------------"
+[1] "Blocks"
+[1] "---------------"
+[1] ":::::VD-A12:::::"
+
+Vargha and Delaney A
+
+A estimate: 0.4995231 ()
+[1] "---------------"
+[1] ":::::Cliffs-Delta:::::"
+[1] "Blocks"
+
+Cliff's Delta
+
+delta estimate: -0.0009538409 (negligible)
+95 percent confidence interval:
+         inf          sup 
+-0.003943373  0.002035708 
+[1] "No.of Blocked Bys"
+[1] "---------------"
+[1] "Extraction: Mean of high"
+[1] 0.0005109862
+[1] "Extraction: Mean of low"
+[1] 0.004093567
+[1] "Extraction: S.D of high"
+[1] 0.022605
+[1] "Extraction: S.D of low"
+[1] 0.1301817
+[1] "---------------"
+[1] "No.of Blocked Bys"
+[1] "-------------------------"
+[1] "H != L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = -1.5686, df = 3770.502, p-value = 0.1168
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.0080604865  0.0008953244
+sample estimates:
+   mean of x    mean of y 
+0.0005109862 0.0040935673 
+
+[1] "-------------------------"
+[1] "H > L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = -1.5686, df = 3770.502, p-value = 0.9416
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -0.007340275          Inf
+sample estimates:
+   mean of x    mean of y 
+0.0005109862 0.0040935673 
+
+[1] "-------------------------"
+[1] "H < L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = -1.5686, df = 3770.502, p-value = 0.05841
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+         -Inf 0.0001751125
+sample estimates:
+   mean of x    mean of y 
+0.0005109862 0.0040935673 
+
+[1] "-------------------------"
+[1] "No.of Blocked Bys"
+[1] "---------------"
+[1] "Finally:::Cohen's D:::"
+[1] -0.03834517
+[1] "---------------"
+[1] "No.of Blocked Bys"
+[1] "---------------"
+[1] ":::::VD-A12:::::"
+
+Vargha and Delaney A
+
+A estimate: 0.499232 ()
+[1] "---------------"
+[1] ":::::Cliffs-Delta:::::"
+[1] "No.of Blocked Bys"
+
+Cliff's Delta
+
+delta estimate: -0.001536096 (negligible)
+95 percent confidence interval:
+          inf           sup 
+-3.161922e-03  8.973764e-05 
+[1] "Total Blocks"
+[1] "---------------"
+[1] "Extraction: Mean of high"
+[1] 0.00408789
+[1] "Extraction: Mean of low"
+[1] 0.008479532
+[1] "Extraction: S.D of high"
+[1] 0.08450293
+[1] "Extraction: S.D of low"
+[1] 0.1555769
+[1] "---------------"
+[1] "Total Blocks"
+[1] "-------------------------"
+[1] "H != L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = -1.3409, df = 5361.962, p-value = 0.18
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.010812106  0.002028821
+sample estimates:
+  mean of x   mean of y 
+0.004087890 0.008479532 
+
+[1] "-------------------------"
+[1] "H > L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = -1.3409, df = 5361.962, p-value = 0.91
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -0.00977958         Inf
+sample estimates:
+  mean of x   mean of y 
+0.004087890 0.008479532 
+
+[1] "-------------------------"
+[1] "H < L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = -1.3409, df = 5361.962, p-value = 0.09
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+         -Inf 0.0009962952
+sample estimates:
+  mean of x   mean of y 
+0.004087890 0.008479532 
+
+[1] "-------------------------"
+[1] "Total Blocks"
+[1] "---------------"
+[1] "Finally:::Cohen's D:::"
+[1] -0.0350799
+[1] "---------------"
+[1] "Total Blocks"
+[1] "---------------"
+[1] ":::::VD-A12:::::"
+
+Vargha and Delaney A
+
+A estimate: 0.4990461 ()
+[1] "---------------"
+[1] ":::::Cliffs-Delta:::::"
+[1] "Total Blocks"
+
+Cliff's Delta
+
+delta estimate: -0.001907831 (negligible)
+95 percent confidence interval:
+         inf          sup 
+-0.005259305  0.001443685 
+[1] "Total Relations"
+[1] "---------------"
+[1] "Extraction: Mean of high"
+[1] 0.6254471
+[1] "Extraction: Mean of low"
+[1] 0.3280702
+[1] "Extraction: S.D of high"
+[1] 1.283538
+[1] "Extraction: S.D of low"
+[1] 0.832912
+[1] "---------------"
+[1] "Total Relations"
+[1] "-------------------------"
+[1] "H != L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 9.2006, df = 2915.365, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.2340015 0.3607523
+sample estimates:
+mean of x mean of y 
+0.6254471 0.3280702 
+
+[1] "-------------------------"
+[1] "H > L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 9.2006, df = 2915.365, p-value < 2.2e-16
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.2441958       Inf
+sample estimates:
+mean of x mean of y 
+0.6254471 0.3280702 
+
+[1] "-------------------------"
+[1] "H < L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 9.2006, df = 2915.365, p-value = 1
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf 0.3505581
+sample estimates:
+mean of x mean of y 
+0.6254471 0.3280702 
+
+[1] "-------------------------"
+[1] "Total Relations"
+[1] "---------------"
+[1] "Finally:::Cohen's D:::"
+[1] 0.2748538
+[1] "---------------"
+[1] "Total Relations"
+[1] "---------------"
+[1] ":::::VD-A12:::::"
+
+Vargha and Delaney A
+
+A estimate: 0.5644093 ()
+[1] "---------------"
+[1] ":::::Cliffs-Delta:::::"
+[1] "Total Relations"
+
+Cliff's Delta
+
+delta estimate: 0.1288186 (negligible)
+95 percent confidence interval:
+      inf       sup 
+0.1035329 0.1539379 
+[1] "Attachments"
+[1] "---------------"
+[1] "Extraction: Mean of high"
+[1] 0.5217169
+[1] "Extraction: Mean of low"
+[1] 0.2745614
+[1] "Extraction: S.D of high"
+[1] 1.091501
+[1] "Extraction: S.D of low"
+[1] 0.8320831
+[1] "---------------"
+[1] "Attachments"
+[1] "-------------------------"
+[1] "H != L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 8.6776, df = 3266.559, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.1913112 0.3029998
+sample estimates:
+mean of x mean of y 
+0.5217169 0.2745614 
+
+[1] "-------------------------"
+[1] "H > L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 8.6776, df = 3266.559, p-value < 2.2e-16
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.2002936       Inf
+sample estimates:
+mean of x mean of y 
+0.5217169 0.2745614 
+
+[1] "-------------------------"
+[1] "H < L"
+
+	Welch Two Sample t-test
+
+data:  highParam and lowParam
+t = 8.6776, df = 3266.559, p-value = 1
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf 0.2940174
+sample estimates:
+mean of x mean of y 
+0.5217169 0.2745614 
+
+[1] "-------------------------"
+[1] "Attachments"
+[1] "---------------"
+[1] "Finally:::Cohen's D:::"
+[1] 0.2546685
+[1] "---------------"
+[1] "Attachments"
+[1] "---------------"
+[1] ":::::VD-A12:::::"
+
+Vargha and Delaney A
+
+A estimate: 0.5702227 ()
+[1] "---------------"
+[1] ":::::Cliffs-Delta:::::"
+[1] "Attachments"
+
+Cliff's Delta
+
+delta estimate: 0.1404453 (negligible)
+95 percent confidence interval:
+      inf       sup 
+0.1164093 0.1643169 
