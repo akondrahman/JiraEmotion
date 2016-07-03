@@ -1,0 +1,41 @@
+[1] "#########################"
+[1] "Arousal"
+
+Call:
+glm(formula = Class ~ PreRequisiteCount + FollowerCount + FollowingCount + 
+    FollowAllCount + RelatedCount + CloneCount + FixNRepairCount + 
+    CausalityCount + BlockedByCount + BlockerCount + TotalBlockCount + 
+    TotalRelCount + AttachmentCount, family = "binomial", data = dataParam)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-3.1467  -0.8644  -0.8644   1.3286   2.1301  
+
+Coefficients: (3 not defined because of singularities)
+                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)       -0.79193    0.03418 -23.173  < 2e-16 ***
+PreRequisiteCount -0.04860    0.11321  -0.429  0.66770    
+FollowerCount      0.18166    0.14909   1.218  0.22306    
+FollowingCount     0.38952    0.20865   1.867  0.06192 .  
+FollowAllCount          NA         NA      NA       NA    
+RelatedCount       0.22167    0.07009   3.163  0.00156 ** 
+CloneCount         0.50394    0.08765   5.749 8.96e-09 ***
+FixNRepairCount    0.49805    0.13014   3.827  0.00013 ***
+CausalityCount     1.21803    0.18170   6.703 2.04e-11 ***
+BlockedByCount    -1.36747    1.07326  -1.274  0.20262    
+BlockerCount      -0.02599    0.37275  -0.070  0.94441    
+TotalBlockCount         NA         NA      NA       NA    
+TotalRelCount           NA         NA      NA       NA    
+AttachmentCount    0.24411    0.03297   7.404 1.32e-13 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 7051.0  on 5376  degrees of freedom
+Residual deviance: 6813.2  on 5366  degrees of freedom
+AIC: 6835.2
+
+Number of Fisher Scoring iterations: 5
+
+[1] "#########################"
